@@ -1,7 +1,12 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-image: url(https://cdn.wonderfulengineering.com/wp-content/uploads/2016/02/red-wallpaper-27.jpg);
 }
 
+/* header */
 #masthead {
 	position: fixed;
 	width: 100%;
@@ -40,6 +45,7 @@ nav: first-child {
 	border-left: 0 none;
 }
 
+/* main */
 #main-container {
 	padding-top: 130px;
 }
@@ -62,6 +68,7 @@ nav: first-child {
 	margin-right: 25px;
 }
 
+/* sidebar */
 .side-bar {
 	float: right;
 	width: 100%;
@@ -86,6 +93,34 @@ h3, side-bar h2 {
 	margin-right: 5px;
 }
 
+/* portfolio */
+.work {
+	position: relative;
+	float: left;
+	width: 274px;
+	margin: 20px 0 25px;
+	overflow: auto;
+}
+
+.work: nth-child {
+	margin-right: 40px;
+}
+
+.work img {
+	width: 100%;
+	border: 0 none;
+	opacity: 0.8;
+}
+
+.work h3 {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 0;
+	font-weight: 360
+}
+/* footer */
 footer {
 	padding: 30px;
 	clear: both;
