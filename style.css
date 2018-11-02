@@ -1,9 +1,12 @@
 * {
 	box-sizing: border-box;
 }
-
+/* general */
 body {
 	background-image: url(https://cdn.wonderfulengineering.com/wp-content/uploads/2016/02/red-wallpaper-27.jpg);
+	font-family: arial, helvetica, sans-serif;
+	font-size: 
+
 }
 
 /* header */
@@ -118,7 +121,12 @@ h3, side-bar h2 {
 	width: 100%;
 	padding: 15px;
 	margin-bottom: 0;
-	font-weight: 360
+	font-weight: 300;
+	line-height: 30px;
+	color: purple;
+	text-align: center;
+	background: black;
+	border-bottom: 0;
 }
 /* footer */
 footer {
